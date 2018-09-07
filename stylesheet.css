@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(148, 148, 148);
+}
+form{
+    padding-top: 30px;
+    background-color: #282828;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+h1{
+    color: grey;
+}
+input:focus{
+    outline: 0;
+}
+.name{
+    font-size: 40px;
+    display: grid;
+    align-self: center;
+    width: auto;
+    color: white;
+}
+img{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+input{
+    margin-bottom: 20px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 240px 1fr;
+}
+.name{
+    margin-left: 20px;
+}
+a{
+    background-color: rgb(87, 86, 86);
+    text-decoration: none;
+    color: white;
+}
+.bulletList{
+    display: grid;
+    grid-template-columns: 240px 1fr;
+}
+.fillUpBox{
+    display: grid;
+    background-color: rgb(87, 86, 86);
+}
+.message{
+    display: grid;
+    color: white;
+    /* grid-column: 2; */
+}
+li{
+    padding: 5px;
+}
